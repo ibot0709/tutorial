@@ -1,6 +1,15 @@
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 int main(){
-	std::cout << "hello" << std::endl;
+	
+	vector<int> v = {1, 2, 3};
+
+	for (int i : v) {
+		cout << i << endl;
+	}
+
 	return 0;
 }
