@@ -49,7 +49,8 @@ public:
 	}
 	void init(){
 		curr = head;
-	};
+	}
+};
 
 int main(){
 	
